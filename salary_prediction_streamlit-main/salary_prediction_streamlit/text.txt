@@ -1,0 +1,11 @@
+cd C:\salary_prediction_streamlit\salary_prediction_streamlit
+
+dir
+
+pip install -r requirements.txt
+
+python train_model.py
+streamlit run app.py
+
+
+https://chatgpt.com/share/687f86b7-138c-800a-b783-e73036b16663
