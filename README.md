@@ -37,11 +37,13 @@ Each model was trained and tested on a global salary dataset, and evaluated usin
 
 ## 📷 Screenshot
 
-Below is a snapshot of the working application:
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232335" src="https://github.com/user-attachments/assets/e3772f7e-000b-4cc9-81fe-a22f550a35c9" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232345" src="https://github.com/user-attachments/assets/e4226dab-6318-46a7-bfe6-e8ce61951b26" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232547" src="https://github.com/user-attachments/assets/9a844662-9f8a-4fcd-9405-2c5819cb86a4" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232519" src="https://github.com/user-attachments/assets/08e11ba6-a5dd-4e98-936c-f552459a5970" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232614" src="https://github.com/user-attachments/assets/14bc02a5-dad4-4596-8e27-e5b0035892a2" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-28 232650" src="https://github.com/user-attachments/assets/c03466b4-d881-4659-be9e-259b03822bd2" />
 
-![Salary Prediction App Screenshot](images/app_screenshot.png)
-
-> *(Make sure to place the image in an `images/` folder inside your project directory)*
 
 ---
 
@@ -55,11 +57,11 @@ Below is a snapshot of the working application:
 
 ## 📁 Project Structure
 
-
+```
 SALARY_PREDICTION_STREAMLIT/
 │
 ├── salary_prediction_streamlit/       # Main project folder
-│   ├── _pycache_/                    # Cache for this folder
+│   ├── __pycache__/                    # Cache for this folder
 │   │
 │   ├── assets/                         # UI assets and templates
 │   │   ├── animation.json              # Lottie animation file
@@ -81,6 +83,7 @@ SALARY_PREDICTION_STREAMLIT/
 │   ├── requirements.txt                # Python dependencies
 │   ├── text.txt                        # Possibly temp notes or logs
 │   └── README.md                       # Project documentation
+```
 
 
 ---
