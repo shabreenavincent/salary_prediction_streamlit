@@ -93,7 +93,7 @@ SALARY_PREDICTION_STREAMLIT/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/SHARAN-MJ/salary_prediction_streamlit.git
+   git clone https://github.com/shabreenavincent/salary_prediction_streamlit.git
    cd salary_prediction_streamlit
    ```
 ## Install dependencies:
