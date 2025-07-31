@@ -55,7 +55,32 @@ Below is a snapshot of the working application:
 
 ## 📁 Project Structure
 
-![alt text](Gemini_Generated_Image_nu8lpinu8lpinu8l.png)
+
+SALARY_PREDICTION_STREAMLIT/
+│
+├── salary_prediction_streamlit/       # Main project folder
+│   ├── _pycache_/                    # Cache for this folder
+│   │
+│   ├── assets/                         # UI assets and templates
+│   │   ├── animation.json              # Lottie animation file
+│   │   ├── job_titles.json             # Job title reference data
+│   │   └── template.csv                # Data template for download/upload
+│   │
+│   ├── data/                           # Dataset folder
+│   │   └── DataScience_salaries_2025.csv
+│   │
+│   ├── models/                         # Trained model files
+│   │   ├── encoders.pkl                # Label encoders
+│   │   ├── lr_model.pkl                # Linear Regression model
+│   │   ├── meta_model.pkl              # Stacking meta-learner
+│   │   ├── tree_model.pkl              # Decision Tree model
+│   │   └── xgb_model.pkl               # XGBoost model
+│   │
+│   ├── app.py                          # Streamlit web application
+│   ├── train_model.py                  # ML model training script
+│   ├── requirements.txt                # Python dependencies
+│   ├── text.txt                        # Possibly temp notes or logs
+│   └── README.md                       # Project documentation
 
 
 ---
@@ -80,7 +105,7 @@ streamlit run app.py
 
 ## Acknowledgements
 
-Project by Sharan MJ, AIML department, Saveetha Engineering College
+Project by Shabreena Vincent, AIDS department, Saveetha Engineering College
 
 Special thanks to mentors and online communities supporting ML education
 
@@ -88,7 +113,7 @@ Special thanks to mentors and online communities supporting ML education
 
 For questions or collaborations, feel free to connect:
 
-📧 Email: sharanmaran1349@gmail.com
+📧 Email: shabs1162@gmail.com
 
-🔗 LinkedIn: https://www.linkedin.com/in/sharan-m-j/
+🔗 LinkedIn: https://www.linkedin.com/in/shabreena-vincent-a748052b2/
    
